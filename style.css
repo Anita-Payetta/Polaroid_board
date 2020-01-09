@@ -1,0 +1,87 @@
+body {
+    background-image: url(http://garchitecture.ca/php/images/headers/wood.jpg);
+    margin: 0;
+}
+
+.polaroid-board-container {
+    padding: 20px;
+    width: 800px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0  auto;
+}
+
+figure {
+    background-color: #FFFFFF;
+    height: 190px;
+    padding: 10px;
+    box-shadow: 2px 3px 0 rgba(0,0,0,0.5);
+    width: fit-content;
+    margin: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    position: relative;
+}
+
+figure:hover {
+    transform: scale(1.5);
+    z-index: 10;
+    transition: .3s;
+}
+
+img {
+    height: 150px;
+}
+
+figcaption {
+    font-family: 'Cedarville Cursive';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+}
+
+.polaroid-photo1 {
+    transform: rotate(-10deg);
+}
+
+.polaroid-photo2 {
+    transform: rotate(15deg);
+    z-index: 1;
+}
+
+.polaroid-photo3 {
+    transform: rotate(-25deg);
+}
+
+.polaroid-photo4 {
+    transform: rotate(5deg);
+    z-index: 1;
+}
+
+.polaroid-photo5 {
+    transform: rotate(5deg);
+}
+
+.polaroid-photo6 {
+    transform: rotate(-8deg);
+    z-index: 1;
+}
+
+.polaroid-photo7 {
+    transform: rotate(2deg);
+}
+
+.polaroid-photo8 {
+    transform: rotate(-12deg);
+    z-index: 1;
+}
+
+.polaroid-photo9 {
+    transform: rotate(3deg);
+    z-index: 2;
+}
+
+.polaroid-photo10 {
+    transform: rotate(-3deg);
+}
